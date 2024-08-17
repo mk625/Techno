@@ -131,14 +131,14 @@
 
     .title-l { font-size: 25px }
 
-    .service-feature-text{
+    .service-feature-text {
         font-size: 18px;
         line-height: 1.4;
         padding: 10px;
         font-family: var(--font-bold);
     }
 
-    .footer-content{ justify-content: start; }
-    .footer-subsections{ width: 100%; }
-
+    .footer-content { justify-content: start; }
+    .footer-subsections { width: 100%; }
 }
+

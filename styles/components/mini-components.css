@@ -1,6 +1,46 @@
 
 
-/* Buttons  */
+
+/* title */
+.title-xl, .title-l, .title-m, .title-s { font-family: var(--font-Extrabold); }
+.title-xl { font-size: 50px }
+.title-l { font-size: 40px }
+.title-m { font-size: 20px }
+.title-s { font-size: 16px }
+
+.content-xl { font-size: 25px; }
+.content-l { font-size: 20px; }
+.content-m { font-size: 18px; }
+.content-s { font-size: 16px; }
+.content-xs { font-size: 14px; }
+/* \\\ title */
+
+
+
+/* dropdown */
+.sub-menu {
+    padding: 30px 10px 10px 10px;
+    background-color: var(--c-white);
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.submenu-item {
+    width: 130px;
+    padding: 10px;
+}
+
+.submenu-item:hover {
+    color: var(--c-primary);
+    transition: var(--default-trans);
+}
+/* \\\ dropdown */
+
+
+
+/* buttons */
 .default-btn {
     background: none;
     color: inherit;
@@ -46,19 +86,21 @@
     border-radius: 5px;
     transition: var(--fast-trans);
 }
+
 .button-3:hover {
     background-color: var(--c-primary);
     color: var(--c-white);
 }
+/* \\\ buttons */
 
-/* divider animation  */
 
-.divider{
+
+.divider {
     position: relative;
     margin: 20px 0;
 }
 
-.divide-rule{
+.divide-rule {
     max-width: 150px;
     height: 6px;
     background-color: var(--c-grey-100);
@@ -66,7 +108,7 @@
     border-radius: 2px;
 }
 
-.animated-ball{
+.animated-ball {
     position: absolute;
     top: -5px;
     width: 15px;

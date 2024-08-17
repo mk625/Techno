@@ -19,11 +19,11 @@
 
 
 /* color classes  */
-.c-blue { color: var(--c-primary) }
-.c-black { color : var(--c-black) }
-.c-white { color : var(--c-white)}
-.c-grey { color : var(--c-grey-100)}
+.c-blue { color: var(--c-primary); }
+.c-black { color: var(--c-black); }
+.c-white { color: var(--c-white); }
+.c-grey { color: var(--c-grey-100); }
 
-.bg-c-blue { background-color: var(--c-primary)}
+.bg-c-blue { background-color: var(--c-primary); }
 
 

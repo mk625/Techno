@@ -1,0 +1,94 @@
+
+
+/* Buttons  */
+.default-btn {
+    background: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-1 {
+    width: max-content;
+    padding: 12px 35px;
+    background-color: var(--c-primary);
+    font-size: 18px;
+    color: var(--c-white);
+    border-radius: 5px;
+    transition: var(--fast-trans);
+}
+
+.button-1:hover {
+    background-color: var(--c-primary-100);
+}
+
+.button-2 {
+    width: max-content;
+    padding: 18px 35px;
+    background-color: var(--c-primary);
+    font-size: 18px;
+    color: var(--c-white);
+    border-radius: 5px;
+    transition: var(--fast-trans);
+}
+
+.button-2:hover {
+    background-color: var(--c-primary-100);
+}
+
+.button-3 {
+    width: max-content;
+    padding: 18px 35px;
+    background-color: var(--c-white);
+    font-size: 18px;
+    color: var(--c-primary);
+    border-radius: 5px;
+    transition: var(--fast-trans);
+}
+.button-3:hover {
+    background-color: var(--c-primary);
+    color: var(--c-white);
+}
+
+/* divider animation  */
+
+.divider{
+    position: relative;
+    margin: 20px 0;
+}
+
+.divide-rule{
+    max-width: 150px;
+    height: 6px;
+    background-color: var(--c-grey-100);
+    border: none;
+    border-radius: 2px;
+}
+
+.animated-ball{
+    position: absolute;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--c-primary);
+    border-radius: 50%;
+    animation-name: ball;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes ball {
+    0% {
+        left: 0;
+    }
+    50%{
+        left: 25%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+

@@ -1,0 +1,55 @@
+
+
+.flex { display: flex; }
+.flex-row { flex-direction: row;}
+.flex-col { flex-direction: column;}
+.flex-wrap { flex-wrap: wrap;}
+
+.flex-grow-1 { flex-grow: 1;}
+.flex-shrink-1 { flex-shrink: 1;}
+
+.hidden { display: none ;}
+.block { display: block;}
+.inline-block { display: inline-block;}
+
+
+/* horizontal alligment  */
+.justify-start { justify-content: start; }
+.justify-end { justify-content: end; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+
+/* vertical allignment  */
+.align-start {align-items: start}
+.align-end {align-items: end}
+.align-center {align-items: center}
+.align-baseline {align-items: baseline}
+.align-stretch {align-items: stretch}
+
+/* gap values  */
+.g5 { gap: 5px; }
+.g8 { gap: 8px; }
+.g10 { gap: 10px; }
+.g12 { gap: 12px; }
+.g15 { gap: 15px; }
+.g20 { gap: 20px; }
+.g25 { gap: 25px; }
+.g30 { gap: 30px; }
+
+
+/* position properties  */
+.absolute { position: absolute; }
+.relative { position: relative; }
+.sticky { position: sticky; }
+.fixed { position: fixed; } 
+
+
+/* overflow options   */
+.overflow-x-auto { overflow-x: auto;}
+.overflow-x-hidden { overflow-x: hidden;}
+.overflow-y-auto { overflow-y: auto;}
+.overflow-y-hidden { overflow-y: hidden;}
+
+

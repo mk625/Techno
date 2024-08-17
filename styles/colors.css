@@ -1,0 +1,29 @@
+
+
+:root{
+    --c-primary: #0c5adb;
+    --c-primary-50: #458cff;
+    --c-primary-100: #083c91;
+    --c-primary-200: #111a3a;
+
+    --c-white : #ffffff;
+    --c-white-100 : #fafafa;
+    --c-white-200 : #e6e6e6;
+
+    --c-black: #000000;
+    --c-grey : #616161;
+    --c-grey-50 : #cac9c9;
+    --c-grey-100 : #a1a1a1ea;
+    --c-grey-200 : #232323;
+}
+
+
+/* color classes  */
+.c-blue { color: var(--c-primary) }
+.c-black { color : var(--c-black) }
+.c-white { color : var(--c-white)}
+.c-grey { color : var(--c-grey-100)}
+
+.bg-c-blue { background-color: var(--c-primary)}
+
+

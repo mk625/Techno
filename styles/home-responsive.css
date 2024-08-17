@@ -1,0 +1,65 @@
+
+
+@media screen and ( max-width: 1200px ) { 
+    .service-feature-text{ font-size: 30px; }
+}
+
+@media screen and ( max-width: 992px ) {
+    /* navbar section  */
+    .primary-navbar, .secondary-navbar{ display: none; }
+    .secondary-navbar-container{ height: var(--h-mobile-navbar); }
+    .mobile-navbar{ display: flex; }
+
+    /* about section  */
+    .about-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* service features section  */
+    .flip-cards-container{ flex-wrap: wrap; }
+
+    /* blog section  */
+    .article-cards-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and ( max-width: 768px ) { 
+    .service-feature-text{ font-size: 25px; }
+
+    /* contact section  */
+    .contact-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-content-area{
+        align-items: center;
+        padding: 30px;
+    }
+
+    .contact-text{ text-align: center; }
+
+    /* team members section  */
+    .team-members-header{ flex-direction: column; }
+
+}
+
+@media screen and ( max-width: 576px ) { 
+    .title-l { font-size: 25px }
+
+    .service-feature-text {
+        font-size: 18px;
+        line-height: 1.4;
+        padding: 10px;
+        font-family: var(--font-bold);
+    }
+
+    .footer-content { justify-content: start; }
+    .footer-subsections { width: 100%; }
+}
+

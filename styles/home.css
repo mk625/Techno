@@ -14,10 +14,18 @@
     height: 100%;
 }
 
+.secondary-navbar .menu-link {
+    color: var(--c-white);
+}
+
 .socials-button-container {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.socials-button-container .menu-link {
+    color: var(--c-white);
 }
 
 /* primary navbar  */
@@ -34,6 +42,10 @@
     gap: 25px;
     font-family: var(--font-semibold);
     color: var(--c-grey-200);
+}
+
+.primarynav-item > .primary-navlink {
+    color: var(--c-primary-200);
 }
 
 .primarynav-item:hover > .primary-navlink {
@@ -94,11 +106,8 @@
     height: calc(100vh - (var(--h-primaryheader) + var(--h-secondaryheader)));
     background-image: url(../assets/images/hero-2.webp);
     background-size: cover;
-    position: relative;
-}
-
-.hero-contents {
     color: var(--c-white);
+    position: relative;
 }
 /* \\\ hero carousel  */
 
@@ -240,7 +249,7 @@
 .contact-section .columns {
     display: flex;
     align-items: center;
-    padding: 30px 0;
+    padding: 60px 0 0;
 }
 
 .contact-section .contact-image-area,
@@ -249,6 +258,7 @@
 }
 
 .contact-img {
+    display: block;
     height: 500px;
     object-fit: contain;
 }
@@ -452,7 +462,7 @@
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
     padding-top: 50px;
     padding-bottom: 50px;

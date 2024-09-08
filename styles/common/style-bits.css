@@ -20,6 +20,9 @@
 
 
 /* size */
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+
 .s5 { width: 5px; height: 5px; }
 .s10 { width: 10px; height: 10px; }
 .s20 { width: 20px; height: 20px; }

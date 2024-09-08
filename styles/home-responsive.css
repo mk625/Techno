@@ -30,23 +30,10 @@
 @media screen and ( max-width: 768px ) { 
     .service-feature-text{ font-size: 25px; }
 
-    /* contact section  */
-    .contact-section-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .contact-content-area{
-        align-items: center;
-        padding: 30px;
-    }
-
     .contact-text{ text-align: center; }
 
     /* team members section  */
     .team-members-header{ flex-direction: column; }
-
 }
 
 @media screen and ( max-width: 576px ) { 

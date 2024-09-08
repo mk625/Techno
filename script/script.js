@@ -46,16 +46,6 @@ $(document).ready(function () {
 
 
 
-    // hero carousel 
-    $("#hero-carousel").owlCarousel({
-        loop: true,
-        items: 1,
-        autoplay: true,
-        autoplayTimeout: 6000,
-        autoplaySpeed: 2000
-    });
-
-
     // service cards carousel 
     $("#service-cards-slider").owlCarousel({
         margin: 30,

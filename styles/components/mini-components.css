@@ -41,55 +41,25 @@
 
 
 /* buttons */
-.default-btn {
+.btn {
+    display: inline-block;
     background: none;
-    color: inherit;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: var(--fast-trans);
 }
 
-.button-1 {
-    width: max-content;
+.btn-primary {
     padding: 12px 35px;
     background-color: var(--c-primary);
     font-size: 18px;
     color: var(--c-white);
     border-radius: 5px;
-    transition: var(--fast-trans);
 }
 
-.button-1:hover {
+.btn-primary:hover {
     background-color: var(--c-primary-100);
-}
-
-.button-2 {
-    width: max-content;
-    padding: 18px 35px;
-    background-color: var(--c-primary);
-    font-size: 18px;
-    color: var(--c-white);
-    border-radius: 5px;
-    transition: var(--fast-trans);
-}
-
-.button-2:hover {
-    background-color: var(--c-primary-100);
-}
-
-.button-3 {
-    width: max-content;
-    padding: 18px 35px;
-    background-color: var(--c-white);
-    font-size: 18px;
-    color: var(--c-primary);
-    border-radius: 5px;
-    transition: var(--fast-trans);
-}
-
-.button-3:hover {
-    background-color: var(--c-primary);
-    color: var(--c-white);
 }
 /* \\\ buttons */
 

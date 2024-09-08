@@ -243,11 +243,17 @@
 
 .contact-section .columns {
     display: flex;
+    align-items: center;
     padding: 30px 0;
 }
 
+.contact-section .contact-image-area,
+.contact-section .contact-content-area {
+    width: 50%;
+}
+
 .contact-img {
-    height: 430px;
+    height: 500px;
     object-fit: contain;
 }
 

@@ -9,13 +9,13 @@ $(document).ready(function () {
     // responsive nav menu button 
     $('.open-menu').click(function () {
         $('.mobile-navbar-menulists').addClass('toogleopen');
-        $('.open-menu').addClass('hidden')
-        $('.close-menu').removeClass('hidden')
+        $('.open-menu').addClass('d-none')
+        $('.close-menu').removeClass('d-none')
     });
     $('.close-menu').click(function () {
         $('.mobile-navbar-menulists').removeClass('toogleopen');
-        $('.close-menu').addClass('hidden')
-        $('.open-menu').removeClass('hidden')
+        $('.close-menu').addClass('d-none')
+        $('.open-menu').removeClass('d-none')
     });
     
     
@@ -23,7 +23,7 @@ $(document).ready(function () {
     $('.primarynav-item').hover(function () {
         $(this).find('.sub-menu').css('visibility', 'visible');
     }, function () {
-        $(this).find('.sub-menu').css('visibility', 'hidden');
+        $(this).find('.sub-menu').css('visibility', 'd-none');
         
     });
 

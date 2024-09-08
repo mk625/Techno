@@ -52,11 +52,11 @@
 .mT8 { margin-top: 8px; }
 .mT10 { margin-top: 10px; }
 .mT20 { margin-top: 20px; }
-.mT24 { margin-top: 24px;}
+.mT24 { margin-top: 24px; }
 .mT30 { margin-top: 30px; }
-.mT40 { margin-top: 40px;}
-.mT50 { margin-top: 50px;}
-.mT80 { margin-top: 80px;}
+.mT40 { margin-top: 40px; }
+.mT50 { margin-top: 50px; }
+.mT80 { margin-top: 80px; }
 
 /* margin bottom  */
 .mB4 { margin-bottom: 4px; }
@@ -70,22 +70,22 @@
 .mB50 { margin-bottom: 50px; }
 
 /* margin right  */
-.mR5 { margin-right: 5px;}
-.mR10 { margin-right: 10px;}
+.mR5 { margin-right: 5px; }
+.mR10 { margin-right: 10px; }
 
 
 /* margin left  */
-.mL5 { margin-left: 5px;}
-.mL10 { margin-left: 10px;}
-.mL20 { margin-left: 20px;}
+.mL5 { margin-left: 5px; }
+.mL10 { margin-left: 10px; }
+.mL20 { margin-left: 20px; }
 
 
 
 /* line height  */
-.line-h-1 { line-height: 1;}
-.line-h-12 { line-height: 1.2;}
-.line-h-15 { line-height: 1.5;}
-.line-h-18 { line-height: 1.8;}
+.line-h-1 { line-height: 1; }
+.line-h-12 { line-height: 1.2; }
+.line-h-15 { line-height: 1.5; }
+.line-h-18 { line-height: 1.8; }
 
 /* text align  */
 .text-a-center { text-align: center; }

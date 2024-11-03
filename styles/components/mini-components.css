@@ -25,6 +25,10 @@
     right: 0;
     z-index: 2;
     visibility: hidden;
+    transition: var(--fast-trans);
+    transform: translateY(-5px);
+    pointer-events: none;
+    box-shadow: 1px 1px 10px 0px #8d8d8d91;
 }
 
 .submenu-item {
@@ -35,6 +39,12 @@
 .submenu-item:hover {
     color: var(--c-primary);
     transition: var(--default-trans);
+}
+
+.primarynav-item > .primary-navlink:hover + .sub-menu {
+    pointer-events: auto;
+    transform: translateY(0px);
+    visibility: visible;
 }
 /* \\\ dropdown */
 
@@ -66,41 +76,26 @@
 
 
 .divider {
+    max-width: 150px;
+    width: 100%;
     position: relative;
-    margin: 20px 0;
+    margin-block: 5px;
 }
 
 .divide-rule {
-    max-width: 150px;
+    width: 100%;
     height: 6px;
     background-color: var(--c-grey-100);
     border: none;
     border-radius: 2px;
 }
 
-.animated-ball {
-    position: absolute;
-    top: -5px;
-    width: 15px;
-    height: 15px;
-    background-color: var(--c-primary);
-    border-radius: 50%;
-    animation-name: ball;
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; 
-}
+.animated-ball { width: 15px; height: 15px; background: var(--c-primary); border-radius: 50%; position: absolute; top: -5px; animation: moving-ball 8s linear infinite; }
 
-@keyframes ball {
-    0% {
-        left: 0;
-    }
-    50%{
-        left: 25%;
-    }
-    100%{
-        left: 0;
-    }
+@keyframes moving-ball {
+    0% { left: 0; }
+    50% { left: calc(100% - 15px); } 
+    100% { left: 0; }
 }
 
 

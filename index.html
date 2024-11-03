@@ -47,7 +47,7 @@
 
 	<!-- website preloader  -->
 	<div class="loader-container">
-		<img src="./assets/logo/logo-1.png" alt="techno logo">
+		<div class="loader-img-container"><img src="./assets/logo/logo-1.png" alt="techno logo"></div>
 	</div>
 	<!-- \\\ website preloader  -->
 
@@ -63,13 +63,13 @@
 				<div class="secondary-navbar">
 					<ul class="d-flx aI-C g15">
 						<li class="header-menuitem">
-							<a href="mailto:someone@example.com" class="menu-link d-flx g5"><i class="bx bx-envelope f20"></i>someone@example.com</a>
+							<a href="mailto:someone@example.com" class="menu-link d-flx aI-C g5"><i class="bx bx-envelope f20"></i>someone@example.com</a>
 						</li>
 						<li class="header-menuitem">
-							<a href="#" class="menu-link d-flx g5"><i class="bx bxs-map f15"></i>24/5, 1st floor, Kurigram.</a>
+							<a href="#" class="menu-link d-flx aI-C g5"><i class="bx bxs-map f15"></i>24/5, 1st floor, Kurigram.</a>
 						</li>
 						<li class="header-menuitem">
-							<a href="tel:+18004567890" class="menu-link d-flx g5"><i class="bx bxs-phone f16"></i>+(1800) 456 7890</a>
+							<a href="tel:+18004567890" class="menu-link d-flx aI-C g5"><i class="bx bxs-phone f16"></i>+(1800) 456 7890</a>
 						</li>
 					</ul>
 					<ul class="socials-button-container">
@@ -177,7 +177,7 @@
 						</ul>
 					</li>
 					<li class="relative primarynav-item">
-						<button aria-label="Get a quote" class="btn btn-primary">Get A Quote</button>
+						<a aria-label="Get a quote" class="btn btn-primary">Get A Quote</a>
 					</li>
 				</ul>
 			</div>
@@ -191,19 +191,19 @@
 		<!-- banner -->
 		<section class="banner-section">
 				<div class="container h100">
-					<div class="h100 d-flx aI-C">
+					<div class="banner-content h100 d-flx aI-C">
 						<div>
-							<h2 class="title-xl line-h-12">
-								IT Consulting Services<br/>
+							<h2 class="title-xl line-h-12 mB15"> IT Consulting Services <br/>
 								For Your Business
 							</h2>
-							<p class="hero-description content-l">We think it's really important to design things with a kind of personality.</p>
-							<a class="btn btn-primary mT10">Learn More</a>
+							<p class="hero-description content-l mB30">We think it's really important to design things with a kind of personality.</p>
+							<a class="btn btn-primary">Learn More</a>
 						</div>
 					</div>
 				</div>
 		</section>
 		<!-- \\\ banner -->
+
 
 
 		<!-- about section  -->
@@ -215,13 +215,15 @@
 			<div class="about-content-section">
 				<div class="mB30">
 					<h4 class="c-blue title-s">30 YEARS OF EXPERIENCE</h4>
-					<p class="title-l c-black line-h-12">
+					<h2 class="title-l c-black line-h-12 mB20">
 						26 Years Of Experience <br />
 						In Serve To <span class="c-blue">People</span>
-					</p>
-					<div class="divider">
-						<hr class="divide-rule" />
-						<div class="animated-ball"></div>
+					</h2>
+					<div class="mB15">
+						<div class="divider">
+							<hr class="divide-rule" />
+							<div class="animated-ball"></div>
+						</div>
 					</div>
 					<p class="content-m">We are privileged to work with hundred future thinking awesom business including many of the world's top hardware.</p>
 				</div>
@@ -248,7 +250,7 @@
 					</li>
 				</ul>
 				<div>
-					<button class="btn btn-primary">About More</button>
+					<a class="btn btn-primary">About More</a>
 				</div>
 			</div>
 		</section>
@@ -322,13 +324,17 @@
 
 		<!-- services -->
 		<section class="services-section container">
-			<div>
-				<h2 class="text-a-center content-s c-blue">OUR SERVICES</h2>
-				<h3 class="text-a-center title-l c-black">What We <span class="c-blue">Provide</span></h3>
-			</div>
-			<div class="divider">
-				<hr class="divide-rule" />
-				<div class="animated-ball"></div>
+			<div class="mB30">
+				<div class="mB15">
+					<h5 class="text-a-center content-s c-blue">OUR SERVICES</h5>
+					<h2 class="text-a-center title-l c-black">What We <span class="c-blue">Provide</span></h2>
+				</div>
+				<div>
+					<div class="divider">
+						<hr class="divide-rule" />
+						<div class="animated-ball"></div>
+					</div>
+				</div>
 			</div>
 			<div id="service-cards-slider" class="owl-carousel">
 				<div class="service-card">
@@ -425,8 +431,8 @@
 							Need any service ! just <br />
 							contact with us
 						</h3>
-						<p class="content-s contact-text mB25">We have the technology and industry expertise to develop solutions that can connect people and businesses</p>
-						<button class="btn btn-primary mT20">Join Us Now &#8594;</button>
+						<p class="content-s contact-text mB30">We have the technology and industry expertise to develop solutions that can connect people and businesses</p>
+						<a class="btn btn-primary">Join Us Now &#8594;</a>
 					</div>
 				</div>
 			</div>
@@ -435,11 +441,11 @@
 
 
 
-		<!-- casestudy  -->
+		<!-- case study  -->
 		<section class="casestudy-section">
-			<div class="mB50">
-				<h2 class="text-a-center content-s c-blue">FEATURES CASE</h2>
-				<h3 class="text-a-center title-l line-h-12 c-black mT10">Our Latest Case Study <br />For Your Business</h3>
+			<div class="mB30">
+				<h5 class="text-a-center content-s c-blue mB10">FEATURES CASE</h5>
+				<h2 class="text-a-center title-l line-h-12 c-black">Our Latest Case Study <br />For Your Business</h2>
 			</div>
 
 			<div id="casestudy-carousel" class="owl-carousel casestudy-carousel-container">
@@ -517,26 +523,26 @@
 				</div>
 			</div>
 		</section>
-		<!-- \\\ casestudy  -->
+		<!-- \\\ case study  -->
 
 
 
 		<!-- team members  -->
 		<section class="team-section container">
-			<div class="team-members-header">
+			<div class="team-members-header mB30">
 				<div>
-					<h6 class="content-s c-blue">TEAM MEMBERS</h6>
-					<h2 class="title-l line-h-12 c-black mT10">
+					<h5 class="content-s c-blue mB10">TEAM MEMBERS</h5>
+					<h2 class="title-l line-h-12 c-black mB20">
 						Our Awesome Creative <br />
 						Team Members
 					</h2>
-					<div class="divider mT24">
+					<div class="divider">
 						<hr class="divide-rule" />
 						<div class="animated-ball"></div>
 					</div>
 				</div>
 				<div>
-					<button class="btn btn-primary">Join Our Team</button>
+					<a class="btn btn-primary">Join Our Team</a>
 				</div>
 			</div>
 			<div class="team-members-gallery">
@@ -581,12 +587,12 @@
 		<!-- testimonials  -->
 		<section class="testimonials-section">
 			<div class="testimonials-content container">
-				<div class="d-flx fd-col aI-C">
-					<h3 class="text-a-center content-s">TESTIMONIALS</h3>
-					<h2 class="text-a-center title-l line-h-12 mT10">Our Happy Customers</h2>
+				<div class="mB30">
+					<h5 class="text-a-center content-s mB10">TESTIMONIALS</h5>
+					<h2 class="text-a-center title-l line-h-12">Our Happy Customers</h2>
 				</div>
 
-				<div id="testimonial-cards-slider" class="owl-carousel service-cards-container mT40">
+				<div id="testimonial-cards-slider" class="owl-carousel service-cards-container">
 					<div class="testimonial-card">
 						<div class="testimonial-msg">
 							<p class="content-s line-h-18">Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
@@ -644,20 +650,20 @@
 
 		<!-- article  -->
 		<section class="article-section container">
-			<div class="team-members-header">
+			<div class="team-members-header mB30">
 				<div>
-					<h6 class="content-s c-blue">LATEST ARTICLES</h6>
-					<h2 class="title-l line-h-12 c-black mT10">
+					<h6 class="content-s c-blue mB5">LATEST ARTICLES</h6>
+					<h2 class="title-l line-h-12 mB20">
 						See Our Latest <br />
 						Blog Posts
 					</h2>
-					<div class="divider mT24">
+					<div class="divider">
 						<hr class="divide-rule" />
 						<div class="animated-ball"></div>
 					</div>
 				</div>
 				<div>
-					<button class="btn btn-primary">See All Blogs</button>
+					<a class="btn btn-primary">See All Blogs</a>
 				</div>
 			</div>
 
@@ -813,3 +819,4 @@
 	<!-- \\\ scripts -->
 </body>
 </html>
+

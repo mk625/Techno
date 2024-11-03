@@ -1,8 +1,11 @@
 
+
 // preloader 
 $(window).on("load", function () {
-    $(".loader-container").fadeOut(2000);
+    $(".loader-container").fadeOut(500);
 });
+
+
 
 $(document).ready(function () {
     
@@ -19,15 +22,6 @@ $(document).ready(function () {
     });
     
     
-    // submenu 
-    $('.primarynav-item').hover(function () {
-        $(this).find('.sub-menu').css('visibility', 'visible');
-    }, function () {
-        $(this).find('.sub-menu').css('visibility', 'd-none');
-        
-    });
-
-
     // scroll to top
     var offset = 250;
     var duration = 500;

@@ -64,13 +64,23 @@
 /* margin bottom  */
 .mB4 { margin-bottom: 4px; }
 .mB5 { margin-bottom: 5px; }
+.mB8 { margin-bottom: 8px; }
 .mB10 { margin-bottom: 10px; }
+.mB12 { margin-bottom: 12px; }
 .mB15 { margin-bottom: 15px; }
+.mB18 { margin-bottom: 18px; }
 .mB20 { margin-bottom: 20px; }
 .mB25 { margin-bottom: 25px; }
 .mB30 { margin-bottom: 30px; }
+.mB35 { margin-bottom: 35px; }
 .mB40 { margin-bottom: 40px; }
+.mB45 { margin-bottom: 45px; }
 .mB50 { margin-bottom: 50px; }
+.mB60 { margin-bottom: 60px; }
+.mB70 { margin-bottom: 70px; }
+.mB80 { margin-bottom: 80px; }
+.mB90 { margin-bottom: 90px; }
+.mB100 { margin-bottom: 100px; }
 
 /* margin right  */
 .mR5 { margin-right: 5px; }
